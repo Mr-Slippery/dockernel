@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 docker run -it --privileged \
 	-v /var/run/docker.sock:/var/run/docker.sock \
